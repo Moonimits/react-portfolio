@@ -190,21 +190,21 @@ body{
 @keyframes FadeBottom{
   from{
     opacity: 0;
-    transform: translateY(0);
+    transform: translateY(-10px);
   }
   to{
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(0);
   }
 }
 @keyframes FadeLeft{
   from{
     opacity: 0;
-    transform: translateX(0);
+    transform: translateX(-20px);
   }
   to{
     opacity: 1;
-    transform: translateX(20px);
+    transform: translateX(0);
   }
 }
 @keyframes FadeIn{

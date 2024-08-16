@@ -7,7 +7,7 @@ function Hero() {
         <div className="col-12 col-lg-6 text-center py-lg-5 fade-in" style={{"--i": 9}}>
           <img src={profile} alt="" className="img-fluid hero-image w-75"/>
         </div>
-        <div className="col-12 col-lg-6 order-lg-first d-flex flex-column justify-content-center pt-5 pt-lg-0">
+        <div className="col-12 col-lg-6 order-lg-first mt-4 mt-lg-0">
           <h3 className="hero-subtitle fade-left" style={{"--i": 6}}>
             Hi, I'm <span>Marco</span>
           </h3>
