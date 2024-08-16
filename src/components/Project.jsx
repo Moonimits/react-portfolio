@@ -10,6 +10,7 @@ import {
   BSBadge,
   PhpBadge,
 } from "./Badges";
+import { ScaleIn } from "./AnimateIn";
 
 const content = [
   {
@@ -50,7 +51,7 @@ const content = [
     p: `This portfolio is made from ReactJS, using its various concepts that I am progressively learning
         such as rendering lists, props and components. Also learning various CSS concepts such as perspective, transforms
         transitions and animations.`,
-    badges: [<ReactBadge />, <BSBadge />,<CssBadge />],
+    badges: [<ReactBadge />, <BSBadge />, <CssBadge />],
   },
 ];
 
@@ -62,7 +63,9 @@ function Project() {
         <div className="row justify-content-center gy-4">
           {content.map((item, index) => (
             <div key={index} className="col-12 col-lg-5">
-              <Card {...item} />
+              <ScaleIn>
+                <Card {...item} />
+              </ScaleIn>
             </div>
           ))}
         </div>
