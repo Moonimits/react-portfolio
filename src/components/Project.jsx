@@ -2,6 +2,9 @@ import { Card } from "./Card";
 import loghousewebsite from "../assets/loghousewebsite.png";
 import prulifewebsite from "../assets/southernjadewebsite.png";
 import portfolio from "../assets/portfolio.png";
+import visibloom from "../assets/visibloom.png";
+import game from "../assets/game.png";
+import brgy from "../assets/brgy.png";
 import {
   ReactBadge,
   HtmlBadge,
@@ -9,6 +12,8 @@ import {
   JSBadge,
   BSBadge,
   PhpBadge,
+  TailwindBadge,
+  GsapBadge
 } from "./Badges";
 import { ScaleIn } from "./AnimateIn";
 
@@ -44,6 +49,52 @@ const content = [
       <JSBadge />,
       <PhpBadge />,
     ],
+  },
+  {
+    imgsrc: visibloom,
+    name: "Visibloom's Website",
+    p: (
+      <>
+        This website was a project of my team when we were establishing an idea of ours to have a business
+        which solely focused on social media management. Visibloom's website was a static website whose only purpose
+        was to promote and feature the services we like to provide. View here: &nbsp;
+        <a href="https://visibloom.github.io/explore/" target="_blank" rel="noopener noreferrer">
+          Visibloom
+        </a>.
+      </>
+    ),
+    badges: [
+      <ReactBadge />,
+      <TailwindBadge />,
+      <GsapBadge />
+    ],
+  },
+  {
+    imgsrc: brgy,
+    name: "Barangay System",
+    p: `This was one of my full stack development of a capstone project when I was freelancing. This system handles account
+    registration, account logins and submitting Form requests of certain equipments or documents on the User's side. On the 
+    other hand, The admin's side is capable of reviewing the verifying accounts, accepting and confirming requests. This system 
+    handles basic CRUD functions on the database`,
+    badges: [<HtmlBadge />, <BSBadge />, <JSBadge />, <PhpBadge />, ],
+  },
+  {
+    imgsrc: game,
+    name: "Turn Based Game",
+    p:
+    (
+      <>
+        This is a personal project of mine which is mainly developed through javascript. This was at a point where I was
+        trying to learn more about javascript and objects which I am still enjoying to explore and continue to add more. 
+        This is an endless RNG based game, by which you are to progress through different enemies. As the game go on tougher 
+        enemies are starting to appear. Take items, weapons armor and enchantments to enhance your odds on surving and get to 
+        the highest round. Play here: &nbsp;
+        <a href="https://moonimits.github.io/Turn-Based-Game/" target="_blank" rel="noopener noreferrer">
+          Through the Unfortunate
+        </a>
+      </> 
+    ),
+    badges: [<HtmlBadge />, <CssBadge />, <BSBadge />, <JSBadge/>],
   },
   {
     imgsrc: portfolio,

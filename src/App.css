@@ -107,6 +107,14 @@ body{
   background-color: rgb(120,17,247);
   color: rgb(249,244,254);
 }
+.text-bg-tailwind{
+  background-color:  white;
+  color: #00BCFF !important;
+}
+.text-bg-gsap{
+  background-color:  #0AE448;
+  color: black !important;
+}
 .text-bg-vb{
   background: linear-gradient(90deg, rgb(31,172,225), rgb(125,63,150));
 }

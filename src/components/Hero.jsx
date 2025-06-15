@@ -12,16 +12,14 @@ function Hero() {
             Hi, I'm <span>Marco</span>
           </h3>
           <h1 className="hero-title fade-left" style={{"--i": 7}}>
-            <span>Front-End</span> Developer
+            <span>Web</span> Developer
           </h1>
           <p className="hero-p lead mt-3 fade-left" style={{"--i": 8}}>
-            A fresh graduate of Information Technology from Batangas State
-            University - JPLPC Malvar, has a burning passion in programming and
-            aspiring to become a professional Web Developer. Seeking a
-            well-established organization that offers me a stable and positive
-            workplace, inspiring me to enhance and develop new skills and to
-            learn new technologies that will be utilized for the betterment of
-            the company.
+            Motivated and results oriented professional with proven work experience in computer programming and web
+            development. Eager to expand technical expertise in modern development practices and stay aligned with
+            current industry trend. Seeking to contribute to a well-established organization that values continuous
+            learning, innovations and growth. Committed to enhancing skills, mastering efficient techniques, and learning
+            new technologies
           </p>
         </div>
       </div>

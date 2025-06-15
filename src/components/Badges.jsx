@@ -21,3 +21,11 @@ export function BSBadge() {
 export function PhpBadge() {
   return <span className="badge text-bg-bootstrap m-1">PHP</span>;
 }
+
+export function TailwindBadge() {
+  return <span className="badge text-bg-tailwind m-1">Tailwind</span>;
+}
+
+export function GsapBadge() {
+  return <span className="badge text-bg-gsap m-1">GSAP</span>;
+}

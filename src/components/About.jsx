@@ -38,35 +38,14 @@ export default function About() {
                   marcoluis.hernandez@gmail.com
                 </p>
               </div>
-            </div>
-          </AnimateIn>
-        </div>
-        <div className="col-12 col-lg-6 pt-4 pt-lg-0">
-          <AnimateIn>
-            <div className="border-main-color bg-dark p-4">
-              <h3 className="main-color ">Programming Background</h3>
-              <p className="text-justify">
-                As the programmer of the team in our Capstone Project, I was
-                incharge of developing the Frontend and the Backend of our
-                website. Throughout the frontend development process, I studied
-                the basics of HTML and CSS. After the basics of CSS I studied
-                Bootstrap since it was the tool for creating a responsive
-                website. For the Backend Development, I studied and used PHP and
-                used Phpmyadmin for the database. Over the course of my Academic
-                Year I also learned other programming languages.
-              </p>
               <div className="row gy-3">
                 <div className="col-12">
                   <h5 className="main-color">Webdev Knowledge</h5>
                   <div className="scale">
                     <span className="badge text-bg-danger m-1">HTML</span>
                     <span className="badge text-bg-primary m-1">CSS</span>
-                    <span className="badge text-bg-warning m-1">
-                      Javascript
-                    </span>
-                    <span className="badge text-bg-bootstrap m-1">
-                      Bootstrap
-                    </span>
+                    <span className="badge text-bg-warning m-1">Javascript</span>
+                    <span className="badge text-bg-bootstrap m-1">Bootstrap</span>
                     <span className="badge text-bg-reactJS m-1">ReactJS</span>
                     <span className="badge text-bg-bootstrap m-1">PHP</span>
                     <span className="badge text-bg-light m-1">
@@ -84,6 +63,39 @@ export default function About() {
                     <span className="badge text-bg-bootstrap m-1">C#</span>
                   </div>
                 </div>
+              </div>
+            </div>
+          </AnimateIn>
+        </div>
+        <div className="col-12 col-lg-6 pt-4 pt-lg-0">
+          <AnimateIn>
+            <div className="border-main-color bg-dark p-4">
+              <h3 className="main-color ">Programming Background</h3>
+              <div className="ms-3">
+                <h5 className="main-color ">Arktech Philippines Inc. (2024-Present):</h5>
+                <p className="text-justify">
+                  My position as a Computer Programmer on Aktech Philippines Inc. I was tasked on
+                  applying responsive designs for existing web softwares on their system. Creating softwares
+                  for streamlining the work process of employees for various departments. Making complex queries
+                  to retreive certain data from the databse. Using database triggers for manual updates. Debugging and fixing old
+                  systems. Developing and adding more functions to an existing softwares and learning Object Oriented Programming on spare 
+                  free time. Some of my projects were PDF manipulations, such as extracting images and using regex to filter
+                  out the useful extracted text, converting pdf to images using ghostscript and created a PDF stamping function. 
+                  A Responsive Header builder function by which creates a responsive html header that would be used in future development of softwares.
+                  Through out the time working as a Computer Programmer in Arktech, I have learned how to use AJAX, JSON, Nested Queries,
+                  Array manipulation, Javascript eventlisteners, PHP File manipulations, PHP Curl, and Libraries such as Jquery, DataTables, FPDI and more.  
+                </p>
+                <h5 className="main-color ">College Capstone (2023-2024):</h5>
+                <p className="text-justify">
+                  As the programmer of the team in our Capstone Project, I was
+                  incharge of developing the Frontend and the Backend of our
+                  website. Throughout the frontend development process, I studied
+                  the basics of HTML and CSS. After the basics of CSS I studied
+                  Bootstrap since it was the tool for creating a responsive
+                  website. For the Backend Development, I studied and used PHP and
+                  used Phpmyadmin for the database. Over the course of my Academic
+                  Year I also learned other programming languages.
+                </p>
               </div>
             </div>
           </AnimateIn>
