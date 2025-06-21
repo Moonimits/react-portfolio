@@ -4,7 +4,7 @@ import {
   faLocationDot,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import { AnimateIn } from "./AnimateIn";
+import { AnimateIn, SlideLeft } from "./AnimateIn";
 
 export default function About() {
   return (
@@ -71,31 +71,42 @@ export default function About() {
           <AnimateIn>
             <div className="border-main-color bg-dark p-4">
               <h3 className="main-color ">Programming Background</h3>
-              <div className="ms-3">
-                <h5 className="main-color ">Arktech Philippines Inc. (2024-Present):</h5>
-                <p className="text-justify">
-                  My position as a Computer Programmer on Aktech Philippines Inc. I was tasked on
-                  applying responsive designs for existing web softwares on their system. Creating softwares
-                  for streamlining the work process of employees for various departments. Making complex queries
-                  to retreive certain data from the databse. Using database triggers for manual updates. Debugging and fixing old
-                  systems. Developing and adding more functions to an existing softwares and learning Object Oriented Programming on spare 
-                  free time. Some of my projects were PDF manipulations, such as extracting images and using regex to filter
-                  out the useful extracted text, converting pdf to images using ghostscript and created a PDF stamping function. 
-                  A Responsive Header builder function by which creates a responsive html header that would be used in future development of softwares.
-                  Through out the time working as a Computer Programmer in Arktech, I have learned how to use AJAX, JSON, Nested Queries,
-                  Array manipulation, Javascript eventlisteners, PHP File manipulations, PHP Curl, and Libraries such as Jquery, DataTables, FPDI and more.  
-                </p>
-                <h5 className="main-color ">College Capstone (2023-2024):</h5>
-                <p className="text-justify">
-                  As the programmer of the team in our Capstone Project, I was
-                  incharge of developing the Frontend and the Backend of our
-                  website. Throughout the frontend development process, I studied
-                  the basics of HTML and CSS. After the basics of CSS I studied
-                  Bootstrap since it was the tool for creating a responsive
-                  website. For the Backend Development, I studied and used PHP and
-                  used Phpmyadmin for the database. Over the course of my Academic
-                  Year I also learned other programming languages.
-                </p>
+              <div className="timeline">
+                <SlideLeft>
+                  <h5 className="main-color ">Arktech Philippines Inc. (2024-Present):</h5>
+                  <p className="text-justify">
+                    Positioned as a Computer Programmer on Aktech Philippines Inc. I was tasked on
+                    applying responsive designs to old and new web softwares on their system. Creating softwares
+                    for streamlining the work process of employees for various departments. Maintaining, tracing and 
+                    bug fixing old softwares. Developing responsive projects, functions and new layouts for new and existing softwares. 
+                    Through out the time being a computer programmer in Arktech I have gained knowledge and skills on the following:  
+                  </p>
+                  <ul>
+                    <li>Utilizing nested queries to retreive certain data from the database.</li>
+                    <li>Using database triggers for quick table managements.</li>
+                    <li>PDF manipulations using GhostScript, FPDI and Poppler Utils.</li>
+                    <li>Using Regex to filter out the useful extracted text on the PDF.</li>
+                    <li>Using AJAX for semi real-time webpage updates.</li>
+                    <li>JSON for passing PHP data to javascript.</li>
+                    <li>Arrays and Array Manipulation for quick data organization.</li>
+                    <li>Utilizing Javascript eventlisteners for user interactions.</li>
+                    <li>PHP Curl request and creating PHP endpoints.</li>
+                    <li>Utilizing Libraries such as Jquery, Datatables, Sweetalert, Izimodal and more.</li>
+                  </ul>
+                </SlideLeft>
+                <SlideLeft>  
+                  <h5 className="main-color ">College Capstone (2023-2024):</h5>
+                  <p className="text-justify">
+                    As the programmer of the team in our Capstone Project, I was
+                    incharge of developing the Frontend and the Backend of our
+                    website. Throughout the frontend development process, I studied
+                    the basics of HTML and CSS. After the basics of CSS I studied
+                    Bootstrap since it was the tool for creating a responsive
+                    website. For the Backend Development, I studied and used PHP and
+                    used Phpmyadmin for the database. Over the course of my Academic
+                    Year I also learned other programming languages.
+                  </p>
+                </SlideLeft>
               </div>
             </div>
           </AnimateIn>

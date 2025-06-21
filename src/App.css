@@ -121,6 +121,39 @@ body{
 .text-bg-py{
   background: linear-gradient(90deg, rgb(61,116,163),rgb(61,116,163), rgb(203, 167, 8));
 }
+.timeline{
+  padding: 10px;
+  padding-left: 40px;
+  position: relative;
+}
+.timeline::after{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 4px;
+  left:16px;
+  top: 0;
+  border: 3px solid var(--main-color);
+  border-style: dashed;
+}
+.timeline h5{
+  position: relative;
+  /* border: 1px solid black; */
+}
+.timeline h5::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  transform: translate(-32px, -50%);
+  outline: 1px solid var(--main-color);
+  border: 4px solid var(--main-color);
+  z-index: 1;
+}
 /* About */
 
 

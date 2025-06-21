@@ -12,6 +12,18 @@ export function AnimateIn({ children }) {
     </motion.div>
   );
 }
+export function SlideLeft({ children }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: .5 }}
+      viewport={{once: true}}
+    >
+      {children}
+    </motion.div>
+  );
+}
 export function ScaleIn({ children }) {
   return (
     <motion.div
