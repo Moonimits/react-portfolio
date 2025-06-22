@@ -125,6 +125,7 @@ body{
   padding: 10px;
   padding-left: 40px;
   position: relative;
+  overflow: hidden;
 }
 .timeline::after{
   position: absolute;
