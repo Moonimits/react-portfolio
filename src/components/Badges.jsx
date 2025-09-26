@@ -29,3 +29,7 @@ export function TailwindBadge() {
 export function GsapBadge() {
   return <span className="badge text-bg-gsap m-1">GSAP</span>;
 }
+
+export function NodeBadge() {
+  return <span className="badge text-bg-gsap m-1">NodeJS</span>;
+}
